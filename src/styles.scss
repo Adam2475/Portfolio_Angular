@@ -1,0 +1,45 @@
+/* You can add global styles to this file, and also import other style files */
+
+body
+{
+  background-image: url("./assets/image.png");
+  //background-color:  #1c2951;
+  font-family: 'Roboto', sans-serif;
+  // font-weight: 700;
+  /* The image used */
+  padding: 0%;
+  margin: 0%;
+  // min-height: 20%;
+      
+  /* Set a specific height */
+  min-height: 1000px;
+      
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+// Add @font-face rules to your global stylesheet to define the fonts.
+
+@font-face
+{
+    font-family: 'Roboto';
+    src: url("./assets/fonts/Roboto-Regular.ttf") format('ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+  
+  @font-face
+  {
+    font-family: 'Roboto';
+    src: url('./assets/fonts/Roboto-Bold.ttf') format('ttf');
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  body
+  {
+    font-family: 'Roboto', sans-serif;
+  }

@@ -1,0 +1,62 @@
+header {
+    background: var(--bg-color);
+    color: #ffffff;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 1rem;
+    }
+  
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+  
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+  
+      li a {
+        text-decoration: none;
+        color: inherit;
+        font-weight: 500;
+        transition: color 0.3s;
+  
+        &:hover {
+          color: var(--accent-color);
+        }
+      }
+    }
+  
+    button {
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-size: 1.2rem;
+    }
+  }
+  
+  /* Theme Variables */
+  :root {
+    --bg-color: #ffffff;
+    --text-color: #333;
+    --accent-color: #007bff;
+  }
+  
+  .dark-mode {
+    --bg-color: #222;
+    --text-color: #fff;
+    --accent-color: #ff9800;
+  }
