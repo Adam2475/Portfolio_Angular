@@ -4,6 +4,8 @@ import { ContentComponent } from './content.component';
 import { HeaderComponent } from './header.component';
 import { FooterComponent } from './footer.component';
 import { ContainerComponent } from './container.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome'
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
 
 //////////////////////////////
 // basic component structure 
@@ -31,13 +33,18 @@ import { ContainerComponent } from './container.component';
   selector: `app-root`,
   //imports: [RouterOutlet],
  // imports: [UserComponent],
- imports: [HeaderComponent, ContentComponent, FooterComponent],
+ imports: [HeaderComponent, 
+  ContentComponent, 
+  FooterComponent,
+  FontAwesomeModule],
   templateUrl: `../html/app.component.html`,
   styleUrls: [`../scss/app.component.scss`],
  // templateUrl: './app.component.html',
   //styleUrl: './app.component.scss'
 })
-export class AppComponent {
+export class AppComponent
+{
   title:string = "Portfolio";
   city:string = "Firenze";
+  faWhatsapp = faWhatsapp;
 }

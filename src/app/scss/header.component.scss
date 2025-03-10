@@ -1,12 +1,13 @@
 header {
-    background: var(--bg-color);
+    background: #333333;
     color: #ffffff;
+    opacity:80%;
     padding: 1rem 0;
-    position: fixed;
+    //position: fixed;
     width: 100%;
     top: 0;
     left: 0;
-    z-index: 1000;
+    //z-index: 1000;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   
     .container {

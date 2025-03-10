@@ -1,11 +1,14 @@
-footer {
+footer
+{
     background: #1c1c1c;
-    opacity: 40%;
-    color: #fff;
-    //padding: 2rem 0;
+    opacity: 70%;
+    color: #fafafa;
     text-align: center;
+    padding-bottom: 5%;
+    padding: 2rem;
   
-    .container {
+    .container
+    {
       max-width: 1200px;
       margin: 0 auto;
      // padding: 0 1rem;
@@ -25,8 +28,6 @@ footer {
       display: flex;
       justify-content: center;
       gap: 1.5rem;
-     // margin-bottom: 1rem;
-  
       li a {
         text-decoration: none;
         color: #bbb;

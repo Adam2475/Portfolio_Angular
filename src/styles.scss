@@ -4,7 +4,7 @@ body
 {
   background-image: url("./assets/image.png");
   //background-color:  #1c2951;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'BigShoulders', 'Roboto', sans-serif;
   // font-weight: 700;
   /* The image used */
   padding: 0%;
@@ -19,9 +19,25 @@ body
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
+  @media only screen and (max-device-width: 1366px) {
+    .parallax {
+      background-attachment: scroll;
+    }
+  }
 }
 
+
+
 // Add @font-face rules to your global stylesheet to define the fonts.
+
+@font-face
+{
+    font-family: 'BigShoulders';
+    src: url("./assets/fonts/BigShouldersStencil-Regular.ttf") format('ttf');
+    font-weight: 400;
+    font-style: normal;
+}
 
 @font-face
 {

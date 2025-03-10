@@ -2,8 +2,8 @@
 {
     text-align: center;
     padding: 4rem 2rem;
-    background: var(--bg-color);
     color: #fefefe;
+    min-height: 700px;
   
     .container
     {
@@ -36,10 +36,85 @@
       font-weight: bold;
       transition: background 0.3s;
     }
-  }
-  :root
-  {
-    --bg-color: #f9f9f9;
-    --text-color: #333;
-    --accent-color: #007bff;
-  }
+}
+
+.social-buttons
+{
+  // margin: 1rem;
+  padding: 1rem;
+}
+
+// setting variables to use in the cose
+:root
+{
+  --bg-color: #f9f9f9;
+  --text-color: #333;
+  --accent-color: #007bff;
+}
+
+#whatsapp
+{
+  height: 50px;
+  background-color: 	#25d366;
+  width: 50px;
+}
+
+#instagram
+{
+  height: 50px;
+  background: linear-gradient(#4f5bd5, #962fbf,
+  #d62976, #fa7e1e, #feda75);
+  width: 50px;
+}
+
+#github
+{
+  height: 50px;
+  background-color: #2b3137;
+  width: 50px;
+}
+
+#youtube
+{
+  height: 50px;
+  background-color: #FF0000;
+  width: 50px;
+
+}
+
+// #282828 : almost black
+
+.social-button
+{
+  padding: 0.5rem;
+  margin-left:0.5rem;
+  margin-right:0.5rem;
+  //display: flex;
+  //flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+}
+
+fa-icon, .icon
+{
+  height: 50px !important;
+  width: 50px !important;
+  color: white;
+}
+
+svg, .ng-fa-icon
+{
+  height: 2rem !important;
+}
+
+.svg-inline--fa
+{
+  display: var(--fa-display, inline-block);
+  height: 2em !important;
+  overflow: visible;
+  vertical-align: -0.125em;
+}
